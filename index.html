@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav id="header">
+      <div class="nav-logo">Sudxx</div>
+      <div class="nav-menu">
+        <div class="nav-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+  </nav>
+  <section id="profile">
+  <div class="section__pic-container">
+    <img
+      src="./assets/profile-pic.png"
+      alt="Logo picture"
+      class="profile-pic"
+      loading="lazy"
+    />
+  </div>
+
+  <div class="section__text">
+    <p class="section__text__p1">Hello, I'm</p>
+    <h1 class="title">Sudeb</h1>
+    <p class="section__text__p2">Fork Developer</p>
+
+    <div class="btn-container">
+      <a href="./assets/profile-pic.png" class="btn btn-color-2" download>
+        Download 
+      </a>
+      <a href="#contact" class="btn btn-color-1">
+        Contact Info
+      </a>
+    </div>
+
+    <div id="socials-container">
+      <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn Profile"
+          class="icon"
+        />
+      </a>
+      <a href="https://github.com/TheSudxx" target="_blank" rel="noopener noreferrer">
+        <img
+          src="./assets/github.png"
+          alt="GitHub Profile"
+          class="icon"
+        />
+      </a>
+    </div>
+  </div>
+  </section>
+  </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+          <div class="text-container">
+            <p>
+              I am a dedicated and enthusiastic developer with a strong passion for coding and problem-solving. I have a solid foundation in various programming languages and technologies, and I am always eager to learn and adapt to new challenges. My goal is to create innovative and efficient solutions that make a positive impact on users and the world around us.
+            </p>
+          </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+  <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+  <a href="mailto:myselfsudeb27@gmail.com" target="_blank" rel="noopener noreferrer">
+    <img
+      src="./assets/email.png"
+      alt="Email icon"
+      class="icon contact-icon email-icon"
+    />
+  </a>
+        </div>
+        <div class="contact-info-container">
+  <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+    <img
+      src="./assets/linkedin.png"
+      alt="LinkedIn icon"
+      class="icon contact-icon"
+    />
+  </a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Sudeb. All Rights Reserved.</p>
+    </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
