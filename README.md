@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 
 ## Live Demo
 
-[**Visit Website**](https://TheSudxx.github.io/PORTFOLIO)
+[**Visit Website**](https://TheSudxx.github.io/Portfolio)
 
 ## Features
 
